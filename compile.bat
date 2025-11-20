@@ -1,0 +1,10 @@
+del cv.pdf
+pdflatex cv.tex
+bibtex cv
+pdflatex cv.tex
+del cv.aux
+del cv.bbl
+del cv.blg
+del cv.log
+del cv.run.xml
+del cv-blx.bib
